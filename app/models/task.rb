@@ -4,6 +4,5 @@ class Task < ApplicationRecord
 
   def set_defaults
     self.completed ||= false
-    self.bool_field = true if bool_field.nil?
   end
 end
